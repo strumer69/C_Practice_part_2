@@ -18,10 +18,11 @@ If the values are correct, the result is to be displayed on the screen.
         throw(string) "Height is equal to 0 or negative";
     else 
         return (l*b*h);
+ }
 
 int main()
     {
-        int lenght , width, height;
+        int length , width, height;
 
         cout << "length " ;
         cin >> length;
